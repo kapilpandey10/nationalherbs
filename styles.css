@@ -1,0 +1,351 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: #2dde86;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+}
+
+header img {
+    float: left;
+    margin-left: 50px;
+    height: 65px;
+    width:auto;
+    text-align: center;
+    padding: auto;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    /* Define default styles for the links */
+    color: #ffffff; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    /* Define styles for when the links are hovered */
+    color: #FF4500; /* Change text color on hover */
+}
+
+h3.classical-quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: #eee354;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+  
+
+.company-name {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+}
+.blue-line {
+    width: 70%;
+    height: 2px;
+    background-color: blue;
+    margin: 10px auto;
+}
+.company-description {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+
+/* Reset default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 105px; /* Adjust height as needed */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product p {
+    margin-top: 5px;
+}
+
+.product a {
+    color: #333;
+    text-decoration: none;
+}
+/* Style for contact form */
+.contact-section {
+    width: 50%; /* Adjust width as needed */
+    float: left; /* Float the contact form to the left */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contact-section h2 {
+    color: #4CAF50;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for message from director */
+.director-section {
+    width: 50%; /* Adjust width as needed */
+    float: right; /* Float the message to the right */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.director-section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    color: #4CAF50;
+}
+
+.director-section p {
+    color: #666;
+}
+
+/* Clearfix to prevent container collapse */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style for footer */
+footer {
+    clear: both; /* Clear floats */
+    text-align: center; /* Center-align text in the footer */
+    padding: 20px 0; /* Add padding top and bottom for spacing */
+    background-color: #696969; /* Add a background color */
+    width: 100%; /* Take up the full width of the page */
+    position:relative; /* Fix the footer at the bottom */
+    bottom: 0; /* Position it at the bottom */
+}
+
+
+
+
+
+/* Your existing CSS styles */
+
+/* Media queries for responsiveness */
+/* Your existing CSS styles */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Other media query styles */
+
+    .director-section {
+        padding: 40px 20px; /* Adjust padding for director section */
+        text-align: center; /* Center-align content on smaller screens */
+    }
+
+    .director-section img {
+        max-width: 100%; /* Make sure the image does not exceed the container width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px; /* Add some space between text and image */
+    }
+
+    /* Adjust the layout for small screens */
+    .contact-section {
+        padding: 20px; /* Reduce padding for contact form section */
+    }
+
+    /* Add styles to position the director section */
+    .director-section {
+        margin-top: 40px; /* Add margin to create space between sections */
+    }
+
+    .director-section img {
+        display: block; /* Ensure the image is a block element */
+        margin: 0 auto; /* Center-align the image */
+    }
+}
+ /* Define styles for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Style for product images */
+.product img {
+    height: 65px; /* Set the height of the product images to 65px */
+    width: auto; /* Automatically adjust the width to maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the product images */
+}
+
+/* Ensure all products are displayed next to each other */
+.product {
+    display: inline-block; /* Make the product containers behave as inline blocks */
+    vertical-align: top; /* Align the product containers to the top */
+    width: 200px; /* Set the width of each product container */
+    margin-bottom: 20px; /* Add some spacing between rows of products */
+}
+
